@@ -14,7 +14,7 @@ Caller: No, I'm outside with my daughter.
 Dispatcher: Good. Stay outside. Is anyone still inside?
 Caller: No, just our dog.
 Dispatcher: Do not go back in. Fire crews are on the way. Are either of you injured?
-Caller: No.
+Caller: No.a
 Dispatcher: Move across the street and stay clear of smoke.
 Caller: Okay… I hear sirens.
 Dispatcher: That's them. Wave them down. Stay safe.`;
