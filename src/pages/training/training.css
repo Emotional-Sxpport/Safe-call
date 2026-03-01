@@ -1,0 +1,80 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.read-the-docs {
+  color: #737373;
+}
+
+.training-page {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+}
+
+.training-content {
+  flex: 1;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.training-panel {
+  flex: 1;
+  background-color: #1a1a1a;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  overflow-y: auto;
+  border: 1px solid #2a2a2a;
+}
+
+.training-panel h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1rem;
+}
+
+
+.training-panel.left-panel {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.625;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  font-size: 1rem;
+}
+
+.training-panel.right-panel {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.625;
+  font-size: 1.25rem;
+}
+
+.training-button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.training-button {
+  padding: 0.75rem 2rem;
+  background-color: #6366f1;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.training-button:hover {
+  background-color: #4f46e5;
+}
